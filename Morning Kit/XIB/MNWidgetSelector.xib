@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1280" defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MNWidgetSelector"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="18" customClass="MNWidgetSelector">
+            <rect key="frame" x="0.0" y="0.0" width="668" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" id="20">
+                    <rect key="frame" x="141" y="120" width="38" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="valueChanged:" destination="18" eventType="valueChanged" id="49"/>
+                    </connections>
+                </pageControl>
+                <scrollView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="19" customClass="MNWidgetSelectScrollView">
+                    <rect key="frame" x="0.0" y="0.0" width="321" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view tag="1" contentMode="scaleToFill" id="113">
+                            <rect key="frame" x="4" y="3" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" text="Weather" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="114">
+                                    <rect key="frame" x="5" y="19" width="91" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="182">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="2" contentMode="scaleToFill" id="117">
+                            <rect key="frame" x="109" y="3" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="Date" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="118">
+                                    <rect key="frame" x="5" y="19" width="91" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="181">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="3" contentMode="scaleToFill" id="121">
+                            <rect key="frame" x="214" y="3" width="102" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="left" text="Calendar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="122">
+                                    <rect key="frame" x="0.0" y="0.0" width="102" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <accessibility key="accessibilityConfiguration">
+                                        <accessibilityTraits key="traits" none="YES" button="YES" staticText="YES"/>
+                                    </accessibility>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="180">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="4" contentMode="scaleToFill" id="123">
+                            <rect key="frame" x="4" y="66" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="left" text="World Clock" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="124">
+                                    <rect key="frame" x="5" y="19" width="91" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="183">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="5" contentMode="scaleToFill" id="127">
+                            <rect key="frame" x="109" y="66" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="left" text="Quotes" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="128">
+                                    <rect key="frame" x="5" y="19" width="91" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="184">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="6" contentMode="scaleToFill" id="129">
+                            <rect key="frame" x="214" y="66" width="102" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="6" contentMode="left" text="Flickr" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="130">
+                                    <rect key="frame" x="5" y="19" width="91" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="185">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="7" contentMode="scaleToFill" id="131">
+                            <rect key="frame" x="324" y="3" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="7" contentMode="left" text="Exchange Rates" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="132">
+                                    <rect key="frame" x="0.0" y="1" width="102" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="186">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="8" contentMode="scaleToFill" id="133">
+                            <rect key="frame" x="429" y="3" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="8" contentMode="left" text="Memo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="134">
+                                    <rect key="frame" x="0.0" y="0.0" width="102" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="187">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="10" contentMode="scaleToFill" id="135">
+                            <rect key="frame" x="324" y="66" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="left" text="Store" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="VVk-KS-fYI">
+                                    <rect key="frame" x="5" y="19" width="91" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <accessibility key="accessibilityConfiguration">
+                                        <accessibilityTraits key="traits" none="YES" button="YES" staticText="YES"/>
+                                    </accessibility>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="9" contentMode="scaleToFill" id="137">
+                            <rect key="frame" x="534" y="3" width="102" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="9" contentMode="left" text="Date Countdown" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="vvP-YR-xJq">
+                                    <rect key="frame" x="0.0" y="0.0" width="102" height="59"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" image="widget_lock_icon_classic_gray.png" id="mLJ-Dg-vr8">
+                                    <rect key="frame" x="84" y="3" width="15" height="15"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="12" contentMode="scaleToFill" id="139">
+                            <rect key="frame" x="429" y="66" width="101" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                        <view tag="12" contentMode="scaleToFill" id="140">
+                            <rect key="frame" x="534" y="66" width="102" height="59"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES"/>
+                            </accessibility>
+                        </view>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="18" id="47"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pageControl" destination="20" id="50"/>
+                <outlet property="scrollView" destination="19" id="51"/>
+                <outlet property="storeLabel" destination="VVk-KS-fYI" id="79D-1a-y4m"/>
+                <outletCollection property="selectorItems" destination="113" id="141"/>
+                <outletCollection property="selectorItems" destination="117" id="142"/>
+                <outletCollection property="selectorItems" destination="121" id="143"/>
+                <outletCollection property="selectorItems" destination="123" id="144"/>
+                <outletCollection property="selectorItems" destination="127" id="145"/>
+                <outletCollection property="selectorItems" destination="129" id="146"/>
+                <outletCollection property="selectorItems" destination="131" id="147"/>
+                <outletCollection property="selectorItems" destination="133" id="149"/>
+                <outletCollection property="selectorItems" destination="137" id="150"/>
+                <outletCollection property="selectorItems" destination="135" id="151"/>
+                <outletCollection property="selectorItems" destination="139" id="152"/>
+                <outletCollection property="selectorItems" destination="140" id="153"/>
+                <outletCollection property="labels" destination="114" id="154"/>
+                <outletCollection property="labels" destination="118" id="155"/>
+                <outletCollection property="labels" destination="122" id="156"/>
+                <outletCollection property="labels" destination="124" id="157"/>
+                <outletCollection property="labels" destination="128" id="158"/>
+                <outletCollection property="labels" destination="130" id="159"/>
+                <outletCollection property="labels" destination="132" id="160"/>
+                <outletCollection property="labels" destination="134" id="161"/>
+                <outletCollection property="lockers" destination="187" id="188"/>
+                <outletCollection property="lockers" destination="186" id="189"/>
+                <outletCollection property="lockers" destination="185" id="190"/>
+                <outletCollection property="lockers" destination="184" id="191"/>
+                <outletCollection property="lockers" destination="183" id="192"/>
+                <outletCollection property="lockers" destination="180" id="193"/>
+                <outletCollection property="lockers" destination="182" id="194"/>
+                <outletCollection property="lockers" destination="181" id="195"/>
+                <outletCollection property="labels" destination="vvP-YR-xJq" id="HgR-tl-Jbe"/>
+                <outletCollection property="lockers" destination="mLJ-Dg-vr8" id="M78-Ha-YWa"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="widget_lock_icon_classic_gray.png" width="60" height="60"/>
+    </resources>
+</document>

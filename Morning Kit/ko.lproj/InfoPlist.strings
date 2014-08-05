@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+/* ko (한국어) */
+
+"CFBundleDisplayName" = "모닝키트";

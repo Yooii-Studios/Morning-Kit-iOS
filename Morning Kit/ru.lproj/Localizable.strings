@@ -1,0 +1,286 @@
+/*
+ Localizable.strings (English)
+ Morning Kit
+ 
+ Created by 김우성 on 12. 10. 29..
+ Copyright (c) 2012년 Yooii. All rights reserved.
+ */
+
+// General
+"app_name" = "Утренний Kомплект";
+"ok" = "OK";
+"cancel" = "Отменить";
+"loading" = "Загрузка…";
+"default_string" = "По умолчанию";
+"yes" = "Да";
+"no" = "Нет";
+"no_network_connection" = "Нет связи";
+"no_location_detected" = "Местоположение недоступно";
+"searching" = "Поиск…";
+"done" = "Готово";
+"open" = "Открыть";
+
+// Alarm
+"add_an_alarm" = "Добавить будильник";
+"edit_alarm" = "Изменить будильник";
+"alarm_default_label" = "Будильник";
+"alarm_am" = "AM";
+"alarm_pm" = "PM";
+"alarm_snooze_stirng" = "Ваш будильник возобновит работy через 9 минут";
+
+// Alarm Toaster
+"alarm_set_toast_part1" = "Установка будильника для ";
+"alarm_set_toast_part2" = "с этого времени";
+"alarm_day" = " день ";
+"alarm_days" = " дни ";
+"alarm_hour" = " час ";
+"alarm_hours" = " часы ";
+"alarm_minute" = " минута ";
+"alarm_minutes" = " минуты ";
+
+// Alarm Preference
+"alarm_pref_repeat" = "Повторить";
+"alarm_pref_sound_type" = "Звук";
+"alarm_pref_label" = "Пометка";
+"alarm_pref_repeat_never" = "Никогда";
+"alarm_pref_repeat_weekdays" = "Будни";
+"alarm_pref_repeat_weekends" = "Выходные";
+"alarm_pref_repeat_everyday" = "Каждый день";
+"alarm_pref_pick_your_favorite_sond" = "Выбрать песню";
+
+// Repeat
+"every_monday" = "Каждый Понедельник";
+"every_tuesday" = "Каждый Вторник";
+"every_wednesday" = "Каждую Среду";
+"every_thursday" = "Каждый Четверг";
+"every_friday" = "Каждую Пятницу";
+"every_saturday" = "Каждую Субботу";
+"every_sunday" = "Каждое Воскресенье";
+"monday" = "По";
+"tuesday" = "Вт";
+"wednesday" = "Ср";
+"thursday" = "Чт";
+"friday" = "Пт";
+"saturday" = "Сб";
+"sunday" = "Вc";
+"monday_short" = "П";
+"tuesday_short" = "В";
+"wednesday_short" = "С";
+"thursday_short" = "Ч";
+"friday_short" = "П";
+"saturday_short" = "С";
+"sunday_short" = "В";
+
+// Alarm Wake
+"alarm_wake_snooze" = "Позже";
+"alarm_wake_dismiss" = "Отклонить";
+
+// Alarm Sound
+"alarm_sound_string_none" = "Oтключение";
+"alarm_sound_string_vibrate" = "Вибрация";
+"alarm_sound_string_ringtones" = "Рингтон";
+"alarm_sound_string_music" = "Музыка";
+"alarm_ocean_short" = "Oкеан";
+"alarm_ride" = "Езда";
+
+// Widget
+"world_clock" = "Мировые\nчасы";
+"flickr" = "Фликр";
+"memo" = "Заметка";
+"date_calculator" = "дата\nобратного отсчета"; // 카운트 다운\n타이머
+"weather" = "Погода";
+"calendar" = "Календарь";
+"exchange_rate" = "Oбменный\nкурс";
+"saying" = "Фразы";
+"reminder" = "Напоминание";
+
+// Calendar
+"calendar_lunar_calendar" = "Лунный календарь";
+"calendar_monday" = "ПОНЕДЕЛЬНИК";
+"calendar_tuesday" = "ВТОРНИК";
+"calendar_wednesday" = "СРЕДА";
+"calendar_thursday" = "ЧЕТВЕРГ";
+"calendar_friday" = "ПЯТНИЦА";
+"calendar_saturday" = "СУББОТА";
+"calendar_sunday" = "ВОСКРЕСЕНЬЕ";
+
+// Flickr
+"flickr_not_available_flickr_url" = "Результаты не найдены";
+"flickr_search_images" = "Поиск изображений";
+"flickr_use_gray_scale" = "Использовать серый оттенок";
+"flickr_save_to_library_guide" = "Это фото будет сохранена в вашей библиотеке";
+"flickr_photo_saved" = "Это фото сохранено";
+"flickr_normal_quality" = "Стандартный";
+"flickr_high_quality" = "Высокое качество";
+"flickr_error_access_server" = "Error in access to flickr server";
+
+// Date Countdown
+"date_countdown_date" = "дата";
+"date_countdown_countdown" = "обратного отсчета";
+"date_countdown_new_year" = "Новый год";
+"date_countdown_write_a_title" = "Пометка";
+"date_countdown_create_countdown" = "Создать обратный отсчет";
+
+// Weather
+"weather_temperature_unit" = "Единицы измерения температуры";
+"weather_use_current_location" = "Использовать текущее местоположение";
+"weather_current_location" = "Текущее местоположение";
+"weather_search_city" = "Поиск города (по-английски)";
+"display_local_time" = "Отображения местного времени";
+"weather_choose_your_city" = "Выбор города";
+
+// World Clock
+"world_clock_clock_type_text" = "Тип часов";
+"world_clock_digital" = "Цифровой";
+"world_clock_analog" = "Аналоговый";
+"world_clock_use_24_hour_format" = "Использовать 24-часовой формат";
+"world_clock_today" = "Сегодня";
+"world_clock_tomorrow" = "Завтра";
+"world_clock_yesterday" = "Вчера";
+
+// Exchange Rate
+"exchange_rate_switch_countries" = "Обменять валюту";
+"exchange_rate_main_currencies" = "Основные валюты";
+"exchange_rate_all_currencies" = "Все валюты";
+
+// Memo
+"memo_write_here" = "Написать записку";
+"memo_write_here_modal" = "Писать здесь";
+"memo_end_of_page_halt" = "Страницы";
+
+// Quotes
+"quotes_copy" = "Скопировать";
+
+// Reminder
+"reminder_no_schedule" = "Нет сегодня событий";
+"reminder_birthday" = "День рождения";
+"reminder_event" = "Событие";
+"reminder_all_day" = "Весь День";
+
+// Configure_Info
+"info_store" = "Хранить";
+"info_help" = "Помощь";
+"info_credit" = "Благодарность";
+"info_yooii_connector" = "Yooii Connector";
+
+// Tab
+"tab_widget" = "Панель";
+"tab_alarm" = "Будильник";
+"tab_setting" = "Настройка";
+"tab_theme" = "Тема";
+"tab_info" = "Информация";
+
+// Setting (General)
+"setting_language" = "Язык";
+"setting_widgettable" = "Матрица панели";
+"setting_theme_color" = "Тема";
+"setting_theme_color_skyblue" = "Небесный (Голубой)";
+"setting_theme_color_classic_gray" = "Шиферний (Серый)";
+"setting_theme_color_classic_white" = "Модерний (Шикарний белые)";
+"setting_theme_mirror" = "Oтражений (Зеркальный)";
+"setting_theme_scenery" = "Спокойствие (Прозрачный)";
+"setting_theme_photo" = "Фото";
+"setting_theme_photo_portrait" = "Фото (Портрет)";
+"setting_theme_photo_landscape" = "Фото (Пейзаж)";
+
+// Setting (Language)
+"setting_language_korean" = "한국어";
+"setting_language_english" = "English";
+"setting_language_japanese" = "日本語";
+"setting_language_simplified_chinese" = "简体中文";
+"setting_language_traditional_chinese" = "繁體中文";
+"setting_language_russian" = "Русский";
+
+// Setting (Effect sound)
+"setting_effect_sound" = "Звуковой эффект";
+"setting_effect_sound_on" = "Включенный";
+"setting_effect_sound_off" = "Выключенный";
+
+// Tutorial
+"tutorial_select_theme" = "Выбрать утренний комплект";
+
+// Tutorial1 - Description
+"tutorial1_label1" = "Вы можете настроить панель";
+"tutorial1_label2" = "Вы можете добавить или изменить будильник";
+"tutorial1_label3" = "Проведите пальцем по экрану чтобы удалить будильники";
+"tutorial1_label4" = "Обновить";
+"tutorial1_label5" = "Настройка";
+"tutorial1_tap_screen" = "Коснитесь экрана";
+"tutorial1_skip_tutorial" = "Пропустить учебник";
+
+// Unlock
+"unlock_notice" = "ВНИМАНИЕ";
+"unlock_unlocked" = "Разблокирован";
+"unlock_description" = "Есть много способов для разблокировкий это функции. найди способ насладиться егю бесплатно!";
+"unlock_description_highlight" = "разблокировкий";
+
+"unlock_everything" = "Разблокировать всё всего за 1.99$";
+"unlock_everything_highlight" = "всё";
+
+"unlock_only_this" = "Разблокировать за 0.99$";
+
+"unlock_review" = "Написать отзыв и разблокировать бесплатно!";
+"unlock_review_highlight" = "отзыв";
+
+"unlock_connector" = "Активизировать Yooii Connector и разблакировка бесплатная!";
+"unlock_connector_highlight" = "Yooii Connector";
+
+"unlock_use_morning" = "Используйте Утренний комплект 10 раз и разблакировка бесплатная!";
+"unlock_use_morning_highlight" = "10 раз";
+
+
+"unlock_facebook" = "Отметьте значком \“Мне нравится\” нашу страницу на Фейсбуке и разблокируйте программу б есплатно";
+"unlock_facebook_highlight" = "\“Мне нравится\”";
+
+
+"unlock_twitter" = "Следите за нами в Твиттере и  разблакировка бесплатная!";
+"unlock_twitter_highlight" = "Следите";
+
+// Store
+"store_no_purchase_records" = "Нет данных о покупках";
+"store_restore_purchases" = "Восстановить покупки";
+"store_restore" = "Восстановить";
+"store_purchased" = "Купленные";
+"store_restore_success_message" = "Все покупки были восстановлены";
+
+"store_buy_full_version" = "Купить полную версию!";
+"store_buy_full_version_description" = "Обновить чтобы разблокировать все Функции, Панели и Темы";
+
+"store_tab_functions" = "Функции";
+"store_tab_widgets" = "Панели";
+"store_tab_themes" = "Темы";
+
+"store_item_more_alarm_slots" = "Дополнительные будиляники";
+"store_item_no_ads" = "Никакой\nрекламы";
+"store_item_matrix" = "2 X 1 Matrix";
+"store_item_widget_date_countdown" = "дата\nобратного отсчета";
+"store_item_widget_memo" = "Заметка";
+"store_item_photo_portrait" = "Фото\nПортрет";
+"store_item_photo_landscape" = "Фото\nПейзаж";
+"store_item_skyblue" = "Небесный\n(Голубой)";
+"store_item_classic_white" = "Модерний\n(Шикарний белые)";
+"store_item_water_lily" = "Водяная лилия";
+"store_item_popsicle" = "Popsicle";
+
+// Rate it
+"rate_it_contents" = "Оценить Утренний комплект сделать его лучше! Спасибо";
+"rate_it_rate" = "Оценка";
+"rate_it_no_thanks" = "Оценить позже";
+"rate_morning_kit" = "Оценить Утренний комплект";
+
+// More Information
+"more_information" = "Утренний комплект Инфо";
+"more_information_yooii_studios" = "Yooii Studios";
+"more_information_morning_kit_help" = "Помощь с Утренним комплектом";
+"more_information_version_info" = "Версия";
+"more_information_morning_kit_license" = "Лицензия Утреннего комплекта";
+"more_information_license" = "Лицензия ";
+
+// Alarm First On Notice
+"alarm_first_on_notice" = "[Настройки -> Центр уведомлений -> Утренний Комплект] Пожалуйста, установите стиль оповещения на \"Оповещения\" и включите \"Звуки\". Звуковой сигнал не звучит в режиме вибрации. Пожалуйста, отключите вибрацию.
+";
+
+// Photo Theme
+"photo_theme_move_and_scale" = "Перемещать и масштабировать";
+"photo_theme_choose" = "Выбрать";
+"photo_theme_first_open_notice" = "Чтобы заполнил весь экран, пожалуйста, измените размер изображения в соответствии с кадром";

@@ -1,0 +1,286 @@
+/* 
+  Localizable.strings (Chinese - zh-Hant)
+  Morning Kit
+
+  Created by 김우성 on 12. 10. 29..
+  Copyright (c) 2012년 Yooii. All rights reserved.
+*/
+
+// General
+"app_name" = "早安工具";
+"ok" = "確認";
+"cancel" = "取消";
+"no_image" = "無圖像";
+"loading" = "載入中...";
+"default_string" = "預設";
+"yes" = "是";
+"no" = "否";
+"no_network_connection" = "连不上网";
+"searching" = "搜索中...";
+"done" = "完成";
+"open" = "打開";
+
+// Alarm
+"add_an_alarm" = "新增鬧鐘";
+"edit_alarm" = "重設鬧鐘";
+"alarm_default_label" = "鬧鐘";
+"alarm_am" = "上午";
+"alarm_pm" = "下午";
+"alarm_snooze_stirng" = "9分鐘後鬧鐘提醒";
+
+// Alarm Toaster
+"alarm_set_toast_part1" = "此鬧鐘設定為現在起";
+"alarm_set_toast_part2" = "";
+"alarm_day" = "天";
+"alarm_days" = "天";
+"alarm_hour" = "小時";
+"alarm_hours" = "小時";
+"alarm_minute" = "分鐘";
+"alarm_minutes" = "分鐘";
+
+// Alarm Preference
+"alarm_pref_repeat" = "重覆";
+"alarm_pref_sound_type" = "聲音";
+"alarm_pref_label" = "標籤";
+"alarm_pref_repeat_never" = "永不";
+"alarm_pref_repeat_weekdays" = "工作日";
+"alarm_pref_repeat_weekends" = "週末";
+"alarm_pref_repeat_everyday" = "每日";
+"alarm_pref_pick_your_favorite_sond" = "選取歌曲";
+
+// Repeat
+"every_monday" = "每週一";
+"every_tuesday" = "每週二";
+"every_wednesday" = "每週三";
+"every_thursday" = "每週四";
+"every_friday" = "每週五";
+"every_saturday" = "每週六";
+"every_sunday" = "每週日";
+"monday" = "周一";
+"tuesday" = "周二";
+"wednesday" = "周三";
+"thursday" = "周四";
+"friday" = "周五";
+"saturday" = "周六";
+"sunday" = "周日";
+"monday_short" = "一";
+"tuesday_short" = "二";
+"wednesday_short" = "三";
+"thursday_short" = "四";
+"friday_short" = "五";
+"saturday_short" = "六";
+"sunday_short" = "日";
+
+// Alarm Wake
+"alarm_wake_snooze" = "小睡";
+"alarm_wake_dismiss" = "好";
+
+// Alarm Sound
+"alarm_sound_string_none" = "靜音";
+"alarm_sound_string_vibrate" = "震動";
+"alarm_sound_string_ringtones" = "鈴聲";
+"alarm_sound_string_music" = "音樂";
+"alarm_ocean_short" = "Ocean";
+"alarm_ride" = "Ride";
+
+// Widget
+"world_clock" = "世界時鐘";
+"flickr" = "Flickr";
+"memo" = "備忘錄";
+"date_calculator" = "日期倒數";
+"weather" = "天氣";
+"calendar" = "日曆";
+"exchange_rate" = "匯率";
+"saying" = "語錄";
+"reminder" = "日程管理";
+
+// Calendar
+"calendar_lunar_calendar" = "農曆";
+"calendar_monday" = "星期一";
+"calendar_tuesday" = "星期二";
+"calendar_wednesday" = "星期三";
+"calendar_thursday" = "星期四";
+"calendar_friday" = "星期五";
+"calendar_saturday" = "星期六";
+"calendar_sunday" = "星期日";
+
+// Flickr
+"flickr_not_available_flickr_url" = "無此搜尋結果";
+"flickr_search_images" = "搜尋圖片";
+"flickr_use_gray_scale" = "使用灰階";
+"flickr_save_to_library_guide" = "此圖片將儲存於相簿中";
+"flickr_photo_saved" = "圖片已儲存";
+"flickr_normal_quality" = "普通";
+"flickr_high_quality" = "高清晰";
+"flickr_error_access_server" = "在Flickr上無法連接到服務器";
+
+// Date Countdown
+"date_countdown_date" = "日期";
+"date_countdown_countdown" = "倒數";
+"date_countdown_new_year" = "元旦";
+"date_countdown_write_a_title" = "標籤";
+"date_countdown_create_countdown" = "建立倒數日";
+
+// Weather
+"weather_temperature_unit" = "溫度單位";
+"weather_use_current_location" = "使用目前位置";
+"weather_current_location" = "目前位置";
+"weather_search_city" = "城市搜索（英文）";
+"display_local_time" = "顯示本地時間";
+"weather_choose_your_city" = "選擇一個城市";
+
+// World Time
+"world_clock_clock_type_text" = "時鐘形式";
+"world_clock_digital" = "數字";
+"world_clock_analog" = "指針";
+"world_clock_use_24_hour_format" = "用24小時製";
+"world_clock_today" = "今天";
+"world_clock_tomorrow" = "明天";
+"world_clock_yesterday" = "昨天";
+
+// Exchange Rate
+"exchange_rate_switch_countries" = "交換貨幣";
+"exchange_rate_main_currencies" = "常用貨幣";
+"exchange_rate_all_currencies" = "全部貨幣";
+
+// Memo
+"memo_write_here" = "建立備忘";
+"memo_write_here_modal" = "從這裡開始寫";
+"memo_end_of_page_halt" = "頁尾";
+
+// Quotes
+"quotes_copy" = "拷貝";
+
+// Reminder
+"reminder_no_schedule" = "没有行事歷事件";
+"reminder_birthday" = "生日";
+"reminder_event" = "事件";
+"reminder_all_day" = "整天";
+
+// Configure_Info
+"info_store" = "商店";
+"info_help" = "協助";
+"info_credit" = "制作團隊";
+"info_yooii_connector" = "Yooii Connector";
+
+// Tab
+"tab_widget" = "面板";
+"tab_alarm" = "鬧鐘";
+"tab_setting" = "設定";
+"tab_theme" = "主題";
+"tab_info" = "資訊";
+
+// Setting (General)
+"setting_language" = "語言";
+"setting_widgettable" = "面板方陣";
+"setting_theme_color" = "主題背景";
+"setting_theme_color_skyblue" = "天上 (天空藍)";
+"setting_theme_color_classic_gray" = "石板 (岩石灰)";
+"setting_theme_color_classic_white" = "摩登 (時尚白)";
+"setting_theme_mirror" = "投影 (鏡子)";
+"setting_theme_scenery" = "寧靜 (透明)";
+"setting_theme_photo" = "照片";
+"setting_theme_photo_portrait" = "照片（縱向)";
+"setting_theme_photo_landscape" = "照片（橫向）";
+
+// Setting (Language)
+"setting_language_korean" = "한국어";
+"setting_language_english" = "English";
+"setting_language_japanese" = "日本語";
+"setting_language_simplified_chinese" = "简体中文";
+"setting_language_traditional_chinese" = "繁體中文";
+"setting_language_russian" = "Русский";
+
+// Setting (Effect sound)
+"setting_effect_sound" = "聲音特效";
+"setting_effect_sound_on" = "開";
+"setting_effect_sound_off" = "關";
+
+// Tutorial
+"tutorial_select_theme" = "￼￼￼￼請選擇一個主題背景";
+
+// Tutorial1 - Description
+"tutorial1_label1" = "您可以重新安排面板";
+"tutorial1_label2" = "￼您可以添加或編輯鬧";
+"tutorial1_label3" = "滑動刪除鬧鐘";
+"tutorial1_label4" = "刷新";
+"tutorial1_label5" = "設定";
+"tutorial1_label6" = "您可以添加或編輯面板、鬧鐘、和主題背景";
+"tutorial1_tap_screen" = "點擊屏幕";
+"tutorial1_skip_tutorial" = "跳過教程";
+
+// Unlock
+"unlock_notice" = "公告";
+"unlock_unlocked" = "解鎖";
+"unlock_description" = "找到更多方法免費解鎖並享受新功能!";
+"unlock_description_highlight" = "免費解鎖";
+
+"unlock_everything" = "全部解鎖只要$1.99";
+"unlock_everything_highlight" = "全部";
+
+"unlock_only_this" = "解鎖只要$0.99";
+
+"unlock_review" = "為此APP評價以獲得此項功能免費解鎖。我們將繼續提供好用新功能!請給我們5顆星!";
+"unlock_review_highlight" = "評價";
+
+"unlock_connector" = "註冊Yooii Connector並獲得此項功能免費解鎖";
+"unlock_connector_highlight" = "Yooii Connector";
+
+"unlock_use_morning" = "使用早安工具10次並獲得此項功能免費解鎖";
+"unlock_use_morning_highlight" = "10";
+
+
+"unlock_facebook" = "在Facebook點贊並獲得此項功能免費解鎖";
+"unlock_facebook_highlight" = "贊";
+
+
+"unlock_twitter" = "在Twitter追踪我們並獲得此項功能免費解鎖";
+"unlock_twitter_highlight" = "追踪";
+
+// Store
+"store_no_purchase_records" = "無購買記錄";
+"store_restore_purchases" = "恢復購買";
+"store_purchased" = "購買完了";
+"store_restore" = "恢復";
+"store_restore_success_message" = "恢復購買成功";
+
+"store_buy_full_version" = "購買完整版!";
+"store_buy_full_version_description" = "可以使用無限制鬧鈴數量、完整面板、全部功能和主題背景";
+
+"store_tab_functions" = "功能";
+"store_tab_widgets" = "面板";
+"store_tab_themes" = "主題背景";
+
+"store_item_more_alarm_slots" = "增加鬧鈴數量";
+"store_item_no_ads" = "不顯示廣告";
+"store_item_matrix" = "2X1工具欄";
+"store_item_widget_date_countdown" = "日期\n倒數";
+"store_item_widget_memo" = "備忘錄";
+"store_item_photo_portrait" = "照片\n縱向";
+"store_item_photo_landscape" = "照片\n橫向";
+"store_item_skyblue" = "天上 (天空藍)";
+"store_item_classic_white" = "摩登\n(時尚白)";
+"store_item_water_lily" = "睡蓮 （設計模式）";
+"store_item_popsicle" = "冰淇淋 （設計模式）";
+
+// Rate it
+"rate_it_contents" = " 評價早安工具使它更好！謝謝！";
+"rate_it_rate" = "評論";
+"rate_it_no_thanks" = "不要";
+"rate_morning_kit" = "評分早安工具";
+
+// More Information
+"more_information" = "早安工具資訊";
+"more_information_yooii_studios" = "Yooii Studios";
+"more_information_morning_kit_help" = "早安工具幫助";
+"more_information_version_info" = "軟件版本";
+"more_information_morning_kit_license" = "早安工具許可證";
+"more_information_license" = "許可證";
+
+// Alarm First On Notice
+"alarm_first_on_notice" = "[設置-> 通知-> 早安工具]\n\n請設置您的提醒樣式為“提醒”，並打開\"聲音\"。\n\n在震動模式下，鬧鐘鈴聲不工作 。使用鬧鐘時，請先解除振動模式。";
+
+// Photo Theme
+"photo_theme_move_and_scale" = "移動和縮放";
+"photo_theme_choose" = "選擇";
+"photo_theme_first_open_notice" = "請修改圖片尺寸以適應屏幕大小。";

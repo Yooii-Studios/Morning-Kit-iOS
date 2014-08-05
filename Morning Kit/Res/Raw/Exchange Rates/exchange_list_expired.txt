@@ -1,0 +1,150 @@
+AED/UAE Dirham/AE/AED
+AFA/Afghanistan Afghani/AF/؋
+ALL/Albanian Lek/AL/L
+ANG/Netherlands Antilles Guilder/CW/ƒ
+ARS/Argentine Peso/AR/$
+AUD/Australian Dollar/AU/A$
+AWG/Aruba Florin/AW/ƒ
+BBD/Barbados Dollar/BB/Bds$
+BDT/Bangladesh Taka/BD/৳
+BHD/Bahraini Dinar/BH/BHD
+BIF/Burundi Franc/BI/FBu
+BMD/Bermuda Dollar/BM/BD$
+BND/Brunei Dollar/BN/B$
+BOB/Bolivian Boliviano/BO/Bs.
+BRL/Brazilian Real/BR/R$
+BSD/Bahamian Dollar/BS/B$
+BTN/Bhutan Ngultrum/BT/Nu.
+BWP/Botswana Pula/BW/P
+BZD/Belize Dollar/BZ/BZ$
+CAD/Canadian Dollar/CA/C$
+CHF/Swiss Franc/CH/S₣
+CLP/Chilean Peso/CL/CLP$
+CNY/Chinese Yuan/CN/¥
+COP/Colombian Peso/CO/COL$
+CRC/Costa Rica Colon/CR/₡
+CUP/Cuban Peso/CU/$MN
+CVE/Cape Verde Escudo/CV/Esc
+CYP/Cyprus Pound/CY/£
+CZK/Czech Koruna/CZ/Kč
+DJF/Dijibouti Franc/DJ/DF
+DKK/Danish Krone/DK/Dkr
+DOP/Dominican Peso/DO/RD$
+DZD/Algerian Dinar/DZ/دج
+EEK/Estonian Kroon/EE/kroon
+EGP/Egyptian Pound/EG/EGP
+ETB/Ethiopian Birr/ET/Br
+EUR/Euro/EU/€
+FKP/Falkland Islands Pound/FK/FK£
+GBP/British Pound/GB/£
+GHC/Ghanian Cedi/GH/GH¢
+GIP/Gibraltar Pound/GI/LL
+GMD/Gambian Dalasi/GM/D
+GNF/Guinea Franc/GN/G₣
+GTQ/Guatemala Quetzal/GT/Q
+GYD/Guyana Dollar/GY/G$
+HTG/Haiti Gourde/HT/G
+HKD/Hong Kong Dollar/HK/HK$
+HNL/Honduras Lempira/HN/L
+HRK/Croatian Kuna/HR/kn
+HUF/Hungarian Forint/HU/Ft
+IDR/Indonesian Rupiah/ID/Rp
+ILS/Israeli Shekel/IL/₪
+INR/Indian Rupee/IN/₹
+IQD/Iraqi Dinar/IQ/ع.د
+ISK/Iceland Krona/IS/Íkr
+JMD/Jamaican Dollar/JM/J$
+JOD/Jordanian Dinar/JO/JD
+JPY/Japanese Yen/JP/¥
+KES/Kenyan Shilling/KE/Ksh
+KHR/Cambodia Riel/KH/៛
+KMF/Comoros Franc/KM/CF
+KPW/North Korean Won/KP/₩
+KRW/Korean Won/KR/₩
+KWD/Kuwaiti Dinar/KW/د.ك
+KYD/Cayman Islands Dollar/KY/CI$
+KZT/Kazakhstan Tenge/KZ/KZT
+LAK/Lao Kip/LA/₭
+LBP/Lebanese Pound/LB/LL
+LKR/Sri Lanka Rupee/LK/රු
+LRD/Liberian Dollar/LR/L$
+LSL/Lesotho Loti/LS/M
+LTL/Lithuanian Lita/LT/Lt
+LVL/Latvian Lat/LV/Ls
+LYD/Libyan Dinar/LY/ل.د
+MAD/Moroccan Dirham/MA/د.م.
+MDL/Moldovan Leu/MD/MDL
+MGF/Malagasy Franc/MG/MGF
+MKD/Macedonian Denar/MK/ден
+MMK/Myanmar Kyat/MM/K
+MNT/Mongolian Tugrik/MN/₮
+MOP/Macau Pataca/MO/MOP$
+MRO/Mauritanian Ouguiya/MR/UM
+MTL/Maltese Lira/MT/Lm
+MUR/Mauritius Rupee/MU/₨
+MVR/Maldives Rufiyaa/MV/Rf.
+MWK/Malawi Kwacha/MW/MK
+MXN/Mexican Peso/MX/Mex$
+MYR/Malaysian Ringgit/MY/RM
+MZM/Mozambique Metical/MZ/MT
+NAD/Namibian Dollar/NA/N$
+NGN/Nigerian Naira/NG/₦
+NIO/Nicaragua Cordoba/NI/C$
+NOK/Norwegian Krone/NO/kr
+NPR/Nepalese Rupee/NP/₨
+NZD/New Zealand Dollar/NZ/NZ$
+OMR/Omani Rial/OM/ر.ع.
+PAB/Panama Balboa/PA/B/.
+PEN/Peruvian Nuevo Sol/PE/S/.
+PGK/Papua New Guinea Kina/PG/K
+PHP/Philippine Peso/PH/₱
+PKR/Pakistani Rupee/PK/රු
+PLN/Polish Zloty/PL/zł
+PYG/Paraguayan Guarani/PY/₲
+QAR/Qatar Rial/QA/ر.ق
+ROL/Romanian Leu/RO/ROL
+RUB/Russian Ruble/RU/руб.
+SAR/Saudi Arabian Riyal/SA/ر.س
+SBD/Solomon Islands Dollar/SB/SI$
+SCR/Seychelles Rupee/SC/SRe
+SDD/Sudanese Dinar/SD/£Sd
+SEK/Swedish Krona/SE/kr
+SGD/Singapore Dollar/SG/S$
+SHP/St Helena Pound/SH/LS
+SIT/Slovenian Tolar/SI/SIT
+SKK/Slovak Koruna/SK/Sk
+SLL/Sierra Leone Leone/SL/Le
+SOS/Somali Shilling/SO/Sh.So.
+SRG/Surinam Guilder/SR/ƒ
+STD/Sao Tome Dobra/ST/Db
+SVC/El Salvador Colon/SV/₡
+SYP/Syrian Pound/SY/LS
+SZL/Swaziland Lilageni/SZ/E
+THB/Thai Baht/TH/฿
+TND/Tunisian Dinar/TN/د.ت
+TOP/Tonga Pa'anga/TO/$
+TRY/Turkey Lira/TR/TRY
+TTD/Trinidad and Tobago Dollar/TT/TT$
+TWD/Taiwan Dollar/TW/NT$
+TZS/Tanzanian Shilling/TZ/TZS
+UAH/Ukraine Hryvnia/UA/₴
+UGX/Ugandan Shilling/UG/USh
+USD/US Dollar/US/$
+UYU/Uruguayan New Peso/UY/$U
+VEB/Venezuelan Bolivar/VE/Bs.
+VND/Vietnam Dong/VN/₫
+VUV/Vanuatu Vatu/VT/VT
+WST/Samoa Tala/WS/WS$
+XAG/Silver Ounces
+XAF/CFA Franc (BEAC)/CM/CFA
+XAU/Gold Ounces
+XCD/East Caribbean Dollar/AI/EC$
+XOF/CFA Franc (BCEAO)/DY/CFA
+XPF/Pacific Franc/PF/F
+XPD/Palladium Ounces
+XPT/Platinum Ounces
+YER/Yemen Riyal/YE/YER
+YUM/Yugoslav Dinar/YU/дин.
+ZAR/South African Rand/ZAR/R
+ZMK/Zambian Kwacha/ZM/ZK
+ZWD/Zimbabwe Dollar/ZW/Z$

@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+/* zh-Hans (중국어 번체) */
+
+"CFBundleDisplayName" = "早安工具";

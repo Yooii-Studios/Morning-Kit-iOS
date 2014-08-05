@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="8Av-49-wLG">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Photo Picker Controller-->
+        <scene sceneID="xuz-gC-2cw">
+            <objects>
+                <viewController id="8Av-49-wLG" customClass="SKPhotoPickerController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iKu-lK-7OB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="ZX4-ZE-7sA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ybB-ww-OOy">
+                                <rect key="frame" x="168" y="417" width="132" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Default Picker">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="defaultImagePickerButtonClicked:" destination="8Av-49-wLG" eventType="touchUpInside" id="tDe-Ds-UNB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jvW-eW-Kqk">
+                                <rect key="frame" x="20" y="354" width="83" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Remove">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removePhotoButtonClicked:" destination="8Av-49-wLG" eventType="touchUpInside" id="i3s-2n-ezU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vNl-5o-lei">
+                                <rect key="frame" x="20" y="417" width="132" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Custom Picker">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="customImagePickerButtonClicked:" destination="8Av-49-wLG" eventType="touchUpInside" id="glr-xg-oW6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="selectedImageView" destination="ZX4-ZE-7sA" id="y6R-0k-eJz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="deG-jC-rWP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249" y="49"/>
+        </scene>
+        <!--Photo Scale Crop View Controller-->
+        <scene sceneID="Zpg-sy-ADE">
+            <objects>
+                <viewController storyboardIdentifier="SKPhotoScaleViewController" id="rWP-M3-XWl" customClass="SKPhotoScaleCropViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5q1-7h-egs" customClass="SKPhotoView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="Uuz-Y1-w5Z">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="cancel" id="5qc-Q7-zc4">
+                                        <connections>
+                                            <action selector="cancelButtonClicked:" destination="rWP-M3-XWl" id="lMp-Bm-3Ub"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="eoF-1H-fd9"/>
+                                    <barButtonItem title="Move and Scale" style="plain" id="boj-gP-GuU" customClass="SKLabelBarButtonItem">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="rnq-A2-cLa"/>
+                                    <barButtonItem title="Choose" id="6eh-5H-nmI">
+                                        <color key="tintColor" red="0.0" green="0.43918225364963503" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="chooseButtonClicked:" destination="rWP-M3-XWl" id="fsB-rv-Rh6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="Fln-0c-eR2" customClass="SKPhotoScaleView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="h9P-Us-0En">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <connections>
+                                    <outlet property="selectedImageView" destination="h9P-Us-0En" id="RTQ-u6-SX3"/>
+                                </connections>
+                            </scrollView>
+                            <view opaque="NO" alpha="0.5" contentMode="scaleToFill" id="dXZ-fC-oEe" customClass="SKPhotoCropFrameView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="cancel" id="T6W-Ek-x6E"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="wmD-8v-5GZ"/>
+                        <barButtonItem title="Move and Scale" style="plain" id="PV5-v7-9lS"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="d49-aM-JPS"/>
+                        <barButtonItem title="Item" id="E4D-RN-xuf"/>
+                    </toolbarItems>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="cancelBarButton" destination="5qc-Q7-zc4" id="4kQ-6U-AcO"/>
+                        <outlet property="chooseBarButton" destination="6eh-5H-nmI" id="Irx-uS-iwi"/>
+                        <outlet property="labelBarButtonItem" destination="boj-gP-GuU" id="8Cp-WX-qB1"/>
+                        <outlet property="photoCropFrameView" destination="dXZ-fC-oEe" id="Vh6-AT-gUP"/>
+                        <outlet property="photoScaleFrameView" destination="Fln-0c-eR2" id="nf6-eI-Fzu"/>
+                        <outlet property="selectedImageView" destination="h9P-Us-0En" id="ujy-fF-F5U"/>
+                        <outlet property="toolBar" destination="Uuz-Y1-w5Z" id="L9n-K7-ykP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L1P-Ma-QrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="49"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
