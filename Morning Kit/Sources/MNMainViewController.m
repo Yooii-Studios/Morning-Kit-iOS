@@ -38,7 +38,6 @@
 #define PROXIMITY_SENSOR_ON 0
 
 @interface MNMainViewController ()
-
 @end
 
 @implementation MNMainViewController
