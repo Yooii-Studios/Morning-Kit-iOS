@@ -29,7 +29,6 @@
 #import "SKTutorialView.h"
 #import "SKTutorialView2.h"
 
-
 @interface MNMainViewController : UIViewController <UITableViewDelegate, MNAlarmPreferenceControllerDelegate, MNMainAlarmTableViewDelegate, MNWidgetViewClickDelegatebyWidgetWindowView, UIAlertViewDelegate, MNAlarmScrollItemViewDelegate, MNWidgetModalViewDelegate, MNAlarmAddItemViewDelegate, SKTutorialViewDelegate, SKTutorialView2Delegate, SKStoreProductViewControllerDelegate>
 
 //// View ////
